@@ -14,7 +14,7 @@ const Header = () => {
     event.preventDefault();
 
     if (!search) dispatch(fetchPosts())
-    else dispatch(fetchPostsByTag(search))
+    else dispatch(fetchPostsByTag(search.toLowerCase()))
     
   };
 
