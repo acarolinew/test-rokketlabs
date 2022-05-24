@@ -1,1 +1,1 @@
-export const urlBase = 'https://dummyapi.io/data/api/'
+export const urlBase = 'https://dummyapi.io/data/v1/'
